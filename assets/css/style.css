@@ -114,6 +114,23 @@ h6 {
 	left: calc(50% - 9.5px);
 }
 
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .block-title p {
 	margin: 0;
 	line-height: 1em;
