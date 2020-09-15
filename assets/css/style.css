@@ -132,9 +132,7 @@ h6 {
         height: auto;
         position: absolute;
         top: 50%;
-        
-        right: 50%;
-
+        left: 50%;
         transform: translate(-50%, -50%);
     }
 .video-container iframe {
@@ -158,8 +156,8 @@ h6 {
 .flexible-container embed {
     position: absolute;
     top: 0;
-    left: 30%;
-    width: 100%;
+    left: 0;
+    width: 50%;
     height: 100%;
 }
 .block-title p {
